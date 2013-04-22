@@ -1,0 +1,16 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+@{
+    ViewBag.Title = "SelfHostedApiDownError";
+}
+
+<h2>SelfHostedApiDownError</h2>
+
+<p>Woops, looks like the SelfHostedApi hasn't been started yet.</p>
+
+
+<h2>Exception details</h2>
+<p>
+    Controller: @Model.ControllerName <br>
+    Action: @Model.ActionName
+    Exception: @Model.Exception
+</p>

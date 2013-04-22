@@ -1,0 +1,22 @@
+﻿@model ServiceModels.DTOs.ProductsResponseDto
+@using ServiceStack.Text
+@{
+    ViewBag.Title = "Products";
+}
+
+<h2>Products</h2>
+<p>Standard MVC controller/view that calls into ServiceStack.ServiceInterface.Service.</p>
+<p>ServiceModels.HomeResponseDto is not exposed on /api</p>
+<p>ServiceInterfaces simplify data access.</p>
+
+<div>
+    @Model.Dump()
+</div>
+
+<div>
+@if (Model.Page > 0) {
+    @Html.ActionLink("Previous", "Index", new { Page = Model.Page - 1 })
+}
+
+@Html.ActionLink("Next", "Index", new { Page = Model.Page += 1 } )
+</div>

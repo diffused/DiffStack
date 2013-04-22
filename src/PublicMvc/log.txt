@@ -1,0 +1,16 @@
+2013-04-21 13:14:46.2512|DEBUG|thing|lkjlkj
+2013-04-21 13:15:03.9824|DEBUG|thing|lkjlkj
+2013-04-21 13:15:06.3397|DEBUG|thing|lkjlkj
+2013-04-21 13:31:08.2544|DEBUG|IndexMetadataHandler|'IndexMetadataHandler' was completed in 22.0028ms
+2013-04-21 13:36:45.8367|DEBUG|IndexMetadataHandler|'IndexMetadataHandler' was completed in 20.0025ms
+2013-04-21 20:33:02.5914|DEBUG|ProductsController|test here
+2013-04-21 20:33:19.3170|DEBUG|ProductsController|test here
+2013-04-21 20:35:30.8727|DEBUG|ProductsController|test here
+2013-04-21 20:35:34.4577|DEBUG|ProductsController|test here
+2013-04-21 20:58:41.2438|DEBUG|ProductsController|test here
+2013-04-21 20:58:45.9244|DEBUG|ProductsController|test here
+2013-04-21 20:58:46.7530|DEBUG|ProductsController|test here
+2013-04-21 20:58:47.3265|DEBUG|ProductsController|test here
+2013-04-21 20:59:15.9337|DEBUG|IndexMetadataHandler|'IndexMetadataHandler' was completed in 26.5034ms
+2013-04-21 21:18:49.8402|DEBUG|ProductsController|test here
+2013-04-22 13:37:17.3116|DEBUG|IndexMetadataHandler|'IndexMetadataHandler' was completed in 29.5037ms

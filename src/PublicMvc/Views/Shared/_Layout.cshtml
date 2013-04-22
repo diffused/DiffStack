@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/styles")
+</head>
+<body>
+    <div class="container">
+        <header>
+            @Html.Partial("_Menu")
+        </header>
+        
+        <div>
+            @RenderBody()
+        </div>
+
+    </div>
+
+
+    @Scripts.Render("~/bundles/libs")
+    @RenderSection("scripts", required: false)
+
+    @Html.Raw(ServiceStack.MiniProfiler.Profiler.RenderIncludes())
+</body>
+</html>
+
+

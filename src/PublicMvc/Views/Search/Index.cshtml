@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Async Lookup";
+}
+
+<h2>Async Lookups</h2>
+<p>Various ways to perform calls to long running services</p>
+<p>Calls a web service to get product ids. It fakes long processing times.<br />
+   On successful response, use product ids to select products from Db and present.</p>
+
+<blockquote>
+    <h4>@Html.ActionLink("MVC async/await method style", "MvcLookup");</h4>
+    <p>Server side view presentation using async Task&lt;ActionResult&gt;.</p>
+
+</blockquote>
+
+
+@*TODO*@
+@*<blockquote>
+    <h4>@Html.ActionLink("ServiceStack API style called using ", "SsLookup")</h4>
+    <p>Ajax using Backbone presentation</p>
+</blockquote>*@
+
+
+
+
+
+
