@@ -1,8 +1,9 @@
 #DiffStack
 
-A mixed MVC and ServiceStack reference project
+A mixed ASP.Net MVC 4 and ServiceStack reference project
 
-I've been researching how to design an MVC4/ServiceStack application that is based on some of my common requirements and attempting to answer some questions along the way. 
+My research project on the most appropriate design of an ASP.Net MVC4 with ServiceStack hybrid application. It's based on some of my common requirements and attempts to solidify answers on some questions I have regarding ServiceStack.
+
 
 Project uses the following, so far:
 - MVC4 as the host app
@@ -17,5 +18,7 @@ Project uses the following, so far:
 - Seperation of DTOs, Entities and ViewModels. ServiceStack works nicely with POCOs that can be reused between ORM, services etc, but I wanted to see how easy it was to map between types. Basically expecting that concerns will creep on larger projects.
 
 TODO
-- Add testing project and patterns
 - ORMLite via Postgres on Windows hosts
+- Mono compatibility
+- Backbonejs Products browser
+- Angular Products browser
